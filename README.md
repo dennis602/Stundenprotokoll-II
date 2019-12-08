@@ -12,7 +12,11 @@ Heute haben wir darüber nachgedacht, was wir als nächstes Projekt machen könn
 
 ### <a name="2"></a>Donnerstag, 05. Dezember 2019
 
-Heute  haben wir uns mit einem weiteren Bestandteil von Arduino auseinandergestzt: Den Tastern. Nach kurzem recherchieren wollten wir den Umgang praktisch üben und haben so LEDs an- und ausgeschaltet. Zuerst haben wir uns einen simplen SKetch kopiert um eine LED durch Knopfdruck anzumachen. Nach kurzer Zeit ging sie dann wieder aus. Dann wollten wir eine LED mit einem Knopf an- ud mit einem anderen ausschalten. Hierzu haben wir underen ersten Sketch angepasst. Das hat dann auch funktioniert.
+Heute  haben wir uns mit einem weiteren Bestandteil von Arduino auseinandergestzt: Den Tastern. Nach kurzem recherchieren wollten wir den Umgang praktisch üben und haben so LEDs an- und ausgeschaltet. Zuerst haben wir uns einen simplen Sketch kopiert um eine LED durch Knopfdruck anzumachen. Nach kurzer Zeit ging sie dann wieder aus. 
+
+https://funduino.de/nr-5-taster-am-arduino
+
+Dann wollten wir eine LED mit einem Knopf an- und mit einem anderen ausschalten. Hierzu haben wir underen ersten Sketch eigenständig angepasst. Das hat dann auch funktioniert.
 
 
 ![Taster LED an und aus](https://github.com/dennis602/Stundenprotokoll-II/blob/master/LED_Taster_AN_AUS.PNG?raw=true)
