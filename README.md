@@ -6,6 +6,8 @@
 
 [Dienstag, 10. Dezember 2019](#3)
 
+[Mittwoch, 11. Dezember 2019](#4)
+
 
 ### <a name="1"></a>Mittwoch, 04. Dezember 2019
 
@@ -35,4 +37,11 @@ Heute haben wir uns mit Motoren beschäftigt. Wir haben zuerst im Internet reche
 Das hat auch funktioniert, allerdings drehte der Motor nur sehr schwach. Also haben die Hardware so verändert, dass noch ein weiteres Kabel vom 5V Anschluss des Mikrocontrollers den Motor mit Strom versorgt. Damit konnte sich der Motor sehr gut drehen. 
 
 Als nächstes wollten wir den Motor steuern, indem er immer dreht, dann stoppt, dann wieder dreht usw. Das hat leider noch nicht geklappt.
+
+
+### <a name="4"></a>Mittwoch, 11. Dezember 2019
+
+Heute haben wir uns damit auseinander gesetzt, warum die Motorsteuerung nicht so funktoniert hat, wie wir es uns gewünscht hatten. Wir kamen darauf, dass sobald der Motor an die 5V angeschlossen immer Strom bekommt, unabhängig vom Sketch. Also haben wir versucht, den Strom über das Breadboard so zu schalten, dass die 5V den digitalen Pin nur unterstützt. Wir haben allerdings sehr schnell festgestellt, dass das nicht möglich ist. Also haben wir Herrn Buhl gefragt und haben erfahren, dass man zur Motorsteuerung ein sogenanntes Motor Shield nutzen muss. Damit werden wir uns morgen auseinandersetzen.
+
+https://www.aeq-web.com/arduino-motor-shield-dc-motor-control/?ref=yt
 
