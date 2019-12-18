@@ -60,3 +60,6 @@ Wie geplant haben wir uns heute mit dem Motor Shield auseinandergesetzt. Zuerst 
 
 
 https://stormarnschule12.github.io/Arduino-car/
+
+
+https://www.arduino.cc/en/Tutorial/TransistorMotorControl
