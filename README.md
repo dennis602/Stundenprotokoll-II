@@ -10,6 +10,10 @@
 
 [Donnerstag, 12. Dezember 2019](#5)
 
+[Dienstag, 17. Dezember 2019](#6)
+
+[Mittwoch, 18. Dezember 2019](#7)
+
 
 ### <a name="1"></a>Mittwoch, 04. Dezember 2019
 
@@ -53,13 +57,19 @@ https://www.aeq-web.com/arduino-motor-shield-dc-motor-control/?ref=yt
 Wie geplant haben wir uns heute mit dem Motor Shield auseinandergesetzt. Zuerst haben wir dafüt im Internet recherchiert. Zum einen wi man den Sketch aufbauen muss und zum anderen wie man die Hardware aufbauen muss. Für die Hardware haben wir den Motor über Anschlüsse an das Motor Shield angeschlosse. Dieses wiederum haben wir dann auf den Mikrocontroller gesteckt, sodass die 5V und jeder Pin; den wir wollten, angesteuert werdenn konnten. Für den Sketch haben wir eine vielversprechende Vorlage kopiert und diese dann an unsere Anforderungen angepasst. Leider hat das nicht funktioniert, aus einem uns unbekannten Grund konnte der Sketch nicht auf den Mikrocontroller übertragen werden. Mit der Lösung dieses Problems wollen wir uns in den kommenden Stunden bschäftigen.
 
 
+### <a name="6"></a>Dienstag, 17. Dezember 2019
+
+Heute ist der Informatikunterricht ausgefallen.
 
 
+### <a name="7"></a>Mittwoch, 18. Dezember 2019
 
-
-
+Heute haben wir uns weiterhin mit der Ansteuerung eines Motors mit externer Stromquelle beschäftigt. Zuerst probierten wir es mit einer "Anleitung" von einem älteren Informatikprojekt ohne Motorshield, sondern mit Transistor.
 
 https://stormarnschule12.github.io/Arduino-car/
 
+Das funktionierte aber nicht, also probierten wir den Sketch mit Motorshield, doch das gleiche Problem lag vor, und zwar, dass die Arduino-Software den Sketch nicht verarbeiten konnte, da die Bibliothek <AF_Motor.h> nicht akzeptiert wurde. Also suchten wir im Internet nach weiteren Anleitungen und fanden folgende:
 
 https://www.arduino.cc/en/Tutorial/TransistorMotorControl
+
+Für diese haben wir dann alle Teile herausgesucht und morgen werden wir versuchen, diese umzusetzen.
