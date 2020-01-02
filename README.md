@@ -14,6 +14,8 @@
 
 [Mittwoch, 18. Dezember 2019](#7)
 
+[Donnerstag, 19. Dezember 2019](#8)
+
 
 ### <a name="1"></a>Mittwoch, 04. Dezember 2019
 
@@ -73,3 +75,14 @@ Das funktionierte aber nicht, also probierten wir den Sketch mit Motorshield, do
 https://www.arduino.cc/en/Tutorial/TransistorMotorControl
 
 Für diese haben wir dann alle Teile herausgesucht und morgen werden wir versuchen, diese umzusetzen.
+
+
+### <a name="8"></a>Donnerstag, 19. Dezember 2019
+
+Heute haben wir die Anleitung von gestern umgesetzt, also alles aufgebaut und den Sketch auf den Mikrocontroller übertragen. 
+
+![Sketch](https://github.com/dennis602/Stundenprotokoll-II/blob/master/code%20transistor%20kopiert.PNG?raw=true)
+
+![Schaltplan](https://github.com/dennis602/Stundenprotokoll-II/blob/master/Schaltplan_Transistor.PNG?raw=true)
+
+Als Stromquelle nutzten wir eine an die Steckdose angeschlossene Stromquelle, an der wir die Spannung einstellen konnten. Die Umsetzung funktionierte. Der Motor drehte sich nach Betätigung des Tasters.
