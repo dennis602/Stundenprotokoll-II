@@ -83,6 +83,11 @@ Heute haben wir die Anleitung von gestern umgesetzt, also alles aufgebaut und de
 
 ![Sketch](https://github.com/dennis602/Stundenprotokoll-II/blob/master/code%20transistor%20kopiert.PNG?raw=true)
 
+
+Den Sketch haben wir so verstanden, dass x in irgendwie die Geschwindigkeit bestimmt, mit der der Motor dreht. Also beginnt der Motor nach drücken des Knopfes durch x++ zu beschleunigen, bis er die Geschwindigkeit 255 erreicht. Anschließend wird er durch x-- wieder langsamer, bis er zum Stillstand kommt. 
+
+
+
 ![Schaltplan](https://github.com/dennis602/Stundenprotokoll-II/blob/master/Schaltplan_Transistor.PNG?raw=true)
 
 Als Stromquelle nutzten wir eine an die Steckdose angeschlossene Stromquelle, an der wir die Spannung einstellen konnten. Die Umsetzung funktionierte. Der Motor drehte sich nach Betätigung des Tasters.
