@@ -100,3 +100,5 @@ Die erste Woche des neuen Jahres ist der Unterricht ausgefallen, weshalb wir uns
 https://www.youtube.com/watch?v=aAxbp507B9I
 
 Dieses Video bietet dazu eine gute Grundlage.
+
+Zudem möchten wir den Motor nochmal mithilfe des Transistors ganz einfach ansteuern, indem wir ihn (ohne Taster) einfach als Output bezeichnen und durch ganz schnelles an- und ausschalten die Geschwindigkeit regulieren. Der Transistor soll es ermöglichen, diesen einfachen Sketch zu verwenden und die Stromversorgung trotzdem extern zu gewährleisten.
