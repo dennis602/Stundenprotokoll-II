@@ -16,6 +16,12 @@
 
 [Donnerstag, 19. Dezember 2019](#8)
 
+[Donnerstag, 20. Dezember 2019](#9)
+
+[Mittwoch, 15. Januar 2020](#10)
+
+[Donnerstag, 16. Januar 2020](#11)
+
 
 ### <a name="1"></a>Mittwoch, 04. Dezember 2019
 
@@ -93,7 +99,7 @@ Den Sketch haben wir so verstanden, dass x in irgendwie die Geschwindigkeit best
 Als Stromquelle nutzten wir eine an die Steckdose angeschlossene Stromquelle, an der wir die Spannung einstellen konnten. Die Umsetzung funktionierte. Der Motor drehte sich nach Betätigung des Tasters.
 Allerdings konnten wir die Geschwindigkeit des Motors immer noch mit der Spannung der Stromquelle bestimmen. Das ist jedoch wahrscheinlich normal, schließlich ist im Schaltplan ja auch eine Batterie verwendet.
 
-
+### <a name="9"></a>Donnerstag, 20. Dezember 2019
 
 Die erste Woche des neuen Jahres ist der Unterricht ausgefallen, weshalb wir uns zu Hause über die weitere Vorgehensweise Gedanken gemacht haben. Wir möchten uns nun mit dem sogenannten Potentiometer (eine Art Drehregler) auseinandersetzten, um einen Servo und anschließend eventuell auch den Motor damit steuern zu können. Bei dem Potentiometer handelt es sich um einen drehbaren Widerstand. Mithilfe einer Variable im Sketch kann die Drehbewegung in einen Wert umgerechnet werden, welcher dann zum Beispiel einem Winkel entspricht, den sich ein Servo bewegen soll. 
 
@@ -102,3 +108,14 @@ https://www.youtube.com/watch?v=aAxbp507B9I
 Dieses Video bietet dazu eine gute Grundlage.
 
 Zudem möchten wir den Motor nochmal mithilfe des Transistors ganz einfach ansteuern, indem wir ihn (ohne Taster) einfach als Output bezeichnen und durch ganz schnelles an- und ausschalten die Geschwindigkeit regulieren. Der Transistor soll es ermöglichen, diesen einfachen Sketch zu verwenden und die Stromversorgung trotzdem extern zu gewährleisten.
+
+
+
+### <a name="10"></a>Mittwoch, 15. Januar 2020
+
+Heute wollten wir mit einem Potentiometer einen Servo ansteuern. Leider hatten wir nicht die nötige Hardware zur Hand. also mussten wir improvisieren. Das Ergebnis war ein sehr altes und sehr großes Potentiometer, mit dem wir es dann versucht haben. Dies hat einigermaßen funktioniert, wir waren also theoretisch in der Lage den Drehwinkel vom Servo per Hand zu steuern, leider gab es aber noch mehr kolmplikationen. Der Mikrocontroller hat sich ständig vom Computer getrennt. Der Sketch lief ein paar Sekunden und dann war Stillstand. Dieses Problem wollen wir morgen beheben.
+
+
+### <a name="11"></a>Donnerstag, 16. Januar 2020
+
+Unser Erster Versuch um das Problem von gestern zu lösen war es, den Computer zu wechseln. Dann haben wir alles wieder neu aufgebut und angefangen auszuprobieren. Wir haben herausgefunden, dass sich der Mikrocontroller nur dann trennt, wenn man einen zu hohen Wiederstand auf dem Potentiometer einstellt. Der Servo wollte sich trotzdem nicht so richtig bewegen, wir würden es gerne nocheinmal mit einem modernen und handlichem Potentiometer probieren, dies ist aber leider momentan nicht möglih.
