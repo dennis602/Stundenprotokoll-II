@@ -117,11 +117,13 @@ Heute wollten wir mit einem Potentiometer einen Servo ansteuern. Leider hatten w
 
 ![Sketch Potentiometer](https://github.com/dennis602/Stundenprotokoll-II/blob/master/Unbenannt.PNG?raw=true)
 
-Die Idee dahinter ist folgende: Man führt durch "int val" eine Variable ein, auf welcher der Wert des Potentiometers gespeichert wird. Mithilfe der "map" Funktion kann man diesen Wert (beim Potentiometer normalerweise 0 bis 1023) in einen Gradwinkel für den Servo (also 0 bis 180) umrechnen. Somit sollte sich der Winkel des Servos an den des Potentiometers anpassen. 
+Die Idee dahinter ist folgende: Man führt durch "int val" eine Variable ein, auf welcher der Wert des Potentiometers gespeichert wird. Dieser kann an einem analogen Pin des Mikrocontrollers ausgelesen werden. Mithilfe der "map" Funktion kann man diesen Wert (beim Potentiometer normalerweise 0 bis 1023) in einen Gradwinkel für den Servo (also 0 bis 180) umrechnen. Somit sollte sich der Winkel des Servos an den des Potentiometers anpassen. 
 
 Dies hat einigermaßen funktioniert. Wir waren also theoretisch in der Lage den Drehwinkel vom Servo per Potentiometer zu steuern, leider gab es aber noch mehr Komplikationen. Der Mikrocontroller hat sich ständig vom Computer getrennt. Der Sketch lief ein paar Sekunden und dann war Stillstand. Dieses Problem wollen wir morgen beheben.
 
 
 ### <a name="11"></a>Donnerstag, 16. Januar 2020
 
-Unser Erster Versuch um das Problem von gestern zu lösen war es, den Computer zu wechseln. Dann haben wir alles wieder neu aufgebut und angefangen auszuprobieren. Wir haben herausgefunden, dass sich der Mikrocontroller nur dann trennt, wenn man einen zu hohen Wiederstand auf dem Potentiometer einstellt. Der Servo wollte sich trotzdem nicht so richtig bewegen, wir würden es gerne nocheinmal mit einem modernen und handlichem Potentiometer probieren, dies ist aber leider momentan nicht möglih.
+Unser Erster Versuch um das Problem von gestern zu lösen war es, den Computer zu wechseln. Dann haben wir alles wieder neu aufgebut und angefangen auszuprobieren. Wir haben herausgefunden, dass sich der Mikrocontroller nur dann trennt, wenn man einen zu hohen Wiederstand auf dem Potentiometer einstellt. Der Servo wollte sich trotzdem nicht so richtig bewegen, wir würden es gerne nocheinmal mit einem modernen und handlichem Potentiometer probieren, dies ist aber leider momentan nicht möglih. Somit werden wir das Potentiometer ersteinmal sein lassen. Wir haben immerhin gelernt, wie man eine Variable mit der map Funktion verwendet :)
+
+Also werden wir uns nächste Woche weiter mit dem Drehmotor beschäftigen. Unser Ziel ist es, ihn vorwärts und rückwärts laufen zu lassen, um eventuell doch am Ende noch den Teeautomaten als Endprojekt erreichen zu können.
