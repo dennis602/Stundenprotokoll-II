@@ -22,6 +22,8 @@
 
 [Donnerstag, 16. Januar 2020](#11)
 
+[Dienstag, 21. Januar 2020](#12)
+
 
 ### <a name="1"></a>Mittwoch, 04. Dezember 2019
 
@@ -127,3 +129,20 @@ Dies hat einigermaßen funktioniert. Wir waren also theoretisch in der Lage den 
 Unser Erster Versuch um das Problem von gestern zu lösen war es, den Computer zu wechseln. Dann haben wir alles wieder neu aufgebut und angefangen auszuprobieren. Wir haben herausgefunden, dass sich der Mikrocontroller nur dann trennt, wenn man einen zu hohen Wiederstand auf dem Potentiometer einstellt. Der Servo wollte sich trotzdem nicht so richtig bewegen, wir würden es gerne nocheinmal mit einem modernen und handlichem Potentiometer probieren, dies ist aber leider momentan nicht möglih. Somit werden wir das Potentiometer ersteinmal sein lassen. Wir haben immerhin gelernt, wie man eine Variable mit der map Funktion verwendet :)
 
 Also werden wir uns nächste Woche weiter mit dem Drehmotor beschäftigen. Unser Ziel ist es, ihn vorwärts und rückwärts laufen zu lassen, um eventuell doch am Ende noch den Teeautomaten als Endprojekt erreichen zu können.
+
+
+### <a name="12"></a>Dienstag, 21. Januar 2020
+
+Heute haben wir uns also wieder mit dem Motor beschäftigt. Zur einfachen Umsetzung, die es erlaubt, den Motor vorwärts und rückwärts drehen zu lassen, nutzen wir folgende Quelle:
+
+https://starthardware.org/motorsteuerung-direkt-per-arduino/
+
+Um den Arduino nicht zu überlasten, nahmen wir statt des 5V Anschlusses des Mikrocontrollers eine externe Stromquelle hinzu. 
+
+![Motor](https://github.com/dennis602/Stundenprotokoll-II/blob/master/Motor_Arduino.jpg?raw=true)
+
+Unser Sketch sah folgendermaßen aus:
+
+![Code Motor]()
+
+Das hat auch alles so funktioniert. Der Motor drehte erst vorwärts, stoppte und drehte anschließend rückwärts. Das Ganze ist dadurch möglich, dass wir an beide Pole des Motors einen OUTPUT angeschlossen haben und somit jeweils der andere Pol den Stromkreis wieder schließt. Der Motor wird also umgepolt. Nun können wir daran weiterarbeiten, den Motor individuell zu steuern.
