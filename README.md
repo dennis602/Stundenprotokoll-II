@@ -24,6 +24,8 @@
 
 [Dienstag, 21. Januar 2020](#12)
 
+[Mittwoch, 22. Januar 2020](#13)
+
 
 ### <a name="1"></a>Mittwoch, 04. Dezember 2019
 
@@ -146,3 +148,19 @@ Unser Sketch sah folgendermaßen aus:
 ![Code Motor]()
 
 Das hat auch alles so funktioniert. Der Motor drehte erst vorwärts, stoppte und drehte anschließend rückwärts. Das Ganze ist dadurch möglich, dass wir an beide Pole des Motors einen OUTPUT angeschlossen haben und somit jeweils der andere Pol den Stromkreis wieder schließt. Der Motor wird also umgepolt. Nun können wir daran weiterarbeiten, den Motor individuell zu steuern.
+
+
+### <a name="13"></a>Mittwoch, 22. Januar 2020
+
+
+Heute haben wir einen Weg gesucht, wie man bestimmte Abläufe einfach gezielt oft ablaufen lassen kann, um das auch beim Motor durchführen zu können. Nach kurzer Recherche sind wir auf die While-Schleife gestoßen.
+
+https://www.youtube.com/watch?v=QlDH2SApocM
+
+Bei dieser setzt man eine Variable zu Anfang auf 0, um sie in einer While-Schleife nach jedem Durchgang des Ablaufs um 1 zu erhöhen. Vorher legt man fest, bis zu welchem Wert die Variable ansteigen darf. So haben wir den Sketch geschrieben und das ganze mit einer LED ausprobiert.
+
+![While Schleife](https://github.com/dennis602/Stundenprotokoll-II/blob/master/While%20Schleife.PNG?raw=true)
+
+Das hat auf Anhieb funktioniert. Als nächstes werden wir diese Funktion mit Motor und Taster verknmüpfen.
+
+
