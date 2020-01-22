@@ -161,6 +161,6 @@ Bei dieser setzt man eine Variable zu Anfang auf 0, um sie in einer While-Schlei
 
 ![While Schleife](https://github.com/dennis602/Stundenprotokoll-II/blob/master/While%20Schleife.PNG?raw=true)
 
-Das hat auf Anhieb funktioniert. Als nächstes werden wir diese Funktion mit Motor und Taster verknmüpfen.
+Die LED geht also an, nach einer Sekunde wieder aus, die Variable erhöht sich um den Wert 1 und die Schleife beginnt von vorn. Das bedeutet, dass die LED fünf Mal blinkt und dann für 3 Sekunden aus bleibt. Dann beginnt das Ganze von vorne. Das hat auf Anhieb funktioniert. Als nächstes werden wir diese Funktion mit Motor und Taster verknüpfen.
 
 
