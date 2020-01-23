@@ -145,7 +145,7 @@ Um den Arduino nicht zu überlasten, nahmen wir statt des 5V Anschlusses des Mik
 
 Unser Sketch sah folgendermaßen aus:
 
-![Code Motor]()
+![Code Motor](https://github.com/dennis602/Stundenprotokoll-II/blob/master/code_motor_funktioniert.PNG?raw=true)
 
 Das hat auch alles so funktioniert. Der Motor drehte erst vorwärts, stoppte und drehte anschließend rückwärts. Das Ganze ist dadurch möglich, dass wir an beide Pole des Motors einen OUTPUT angeschlossen haben und somit jeweils der andere Pol den Stromkreis wieder schließt. Der Motor wird also umgepolt. Nun können wir daran weiterarbeiten, den Motor individuell zu steuern.
 
