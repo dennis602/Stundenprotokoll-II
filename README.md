@@ -26,6 +26,8 @@
 
 [Mittwoch, 22. Januar 2020](#13)
 
+[Donnerstag, 23. Januar 2020](#14)
+
 
 ### <a name="1"></a>Mittwoch, 04. Dezember 2019
 
@@ -162,5 +164,18 @@ Bei dieser setzt man eine Variable zu Anfang auf 0, um sie in einer While-Schlei
 ![While Schleife](https://github.com/dennis602/Stundenprotokoll-II/blob/master/While%20Schleife.PNG?raw=true)
 
 Die LED geht also an, nach einer Sekunde wieder aus, die Variable erhöht sich um den Wert 1 und die Schleife beginnt von vorn. Das bedeutet, dass die LED fünf Mal blinkt und dann für 3 Sekunden aus bleibt. Dann beginnt das Ganze von vorne. Das hat auf Anhieb funktioniert. Als nächstes werden wir diese Funktion mit Motor und Taster verknüpfen.
+
+
+### <a name="14"></a>Donnerstag, 23. Januar 2020
+
+Heute haben wir unsere drei großen Bausteine miteinander verknüpft: Motor, Taster und While-Schleife mit Variable. Als Ausgangsbasis haben wir den Motor-Sketch genommen und in diesen den Taster-Sketch eingefügt. Dass der Motor sich einmal vor und danach zurück dreht, soll also nur noch passieren, wenn wir vorher auf den Taster gedrückt haben. Wird der Taster nicht gedrückt, passiert gar nichts. Als nächstes haben wir die While-Schleife eingebaut. Dieses Vor- und Zurückdrehen soll durch das Mitzählen und erhöhen der Variable auf drei Mal begrenzt werden. Danach ist Schluss und es muss erneut der Taster betätigt werden. Dies hat bei der praktischen Umsetzung sofort funktioniert.
+
+![Motor Taster While 1](https://github.com/dennis602/Stundenprotokoll-II/blob/master/23.01.20_1.PNG?raw=true)
+
+
+![Motor Taster While 2](https://github.com/dennis602/Stundenprotokoll-II/blob/master/23.01.20_2.PNG?raw=true)
+
+
+
 
 
