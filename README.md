@@ -28,6 +28,8 @@
 
 [Donnerstag, 23. Januar 2020](#14)
 
+[Dienstag, 28. Januar 2020](#15)
+
 
 ### <a name="1"></a>Mittwoch, 04. Dezember 2019
 
@@ -174,6 +176,17 @@ Heute haben wir unsere drei großen Bausteine miteinander verknüpft: Motor, Tas
 
 
 ![Motor Taster While 2](https://github.com/dennis602/Stundenprotokoll-II/blob/master/23.01.20_2.PNG?raw=true)
+
+
+### <a name="15"></a>Dienstag, 28. Januar 2020
+
+Heute haben wir den letzten Sketch mit einer zweiten if-Bedingung erweitert. Dazu muss man beide if-Bedingungen in Klammern setzten und dazwischen " && " setzten. Die zweite if-Bedingung ist ein Ultrasschallsensor, der Entfernung misst (s. Stundenprotkoll letztes Halbjahr). Um diesen zu testen, verwendeten wir erst einen Serial Print, um uns dort die berechnete Entfernung anzeigen zu lassen. Das hat soweit auch funktioniert. Wir wollten bewirken, dass der Sketch nur dann abläuft, wenn der Ultraschallsensor eine geringe Entfernung misst, um später den Teebeutelautomaten nur zu starten, wenn auch wirklich eine Tasse dort steht. Der Taster hat also nur eine Wirkung, wenn eine geringe Entfernung gemessen wird. Wir haben wie letztes Jahr die Messung mit ins Void Loop etc. eingefügt und anschließend die zweite if-Bedingung geschrieben.
+
+![Code mit Ultraschallsensor](https://github.com/dennis602/Stundenprotokoll-II/blob/master/Code_motor_ultraschall%20(3).PNG?raw=true)
+
+Das hat soweit auch funktoniert, allerdings nur das erste Mal nach dem Hochladen des Sketches. Dieses Problem werden wir nächstes Mal versuchen zu lösen.
+
+![Foto](https://github.com/dennis602/Stundenprotokoll-II/blob/master/Foto_Arduino_Motor_Ultraschall.jpg?raw=true)
 
 
 
