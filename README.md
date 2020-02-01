@@ -30,6 +30,8 @@
 
 [Dienstag, 28. Januar 2020](#15)
 
+[Donnerstag, 30. Januar 2020](#16) 
+
 
 ### <a name="1"></a>Mittwoch, 04. Dezember 2019
 
@@ -187,6 +189,16 @@ Heute haben wir den letzten Sketch mit einer zweiten if-Bedingung erweitert. Daz
 Das hat soweit auch funktoniert, allerdings nur das erste Mal nach dem Hochladen des Sketches. Dieses Problem werden wir nächstes Mal versuchen zu lösen.
 
 ![Foto](https://github.com/dennis602/Stundenprotokoll-II/blob/master/Foto_Arduino_Motor_Ultraschall.jpg?raw=true)
+
+
+
+### <a name="16"></a>Donnerstag, 30. Januar 2020
+
+Gestern und heute ist der Informatikunterricht ausgefallen. Also hatten wir keinen Zugang zur Hardware, aber haben uns überlegt, wie wir nun weiter vorgehen werden. Wir werden noch einmal das Arduino Motorshield ausprobieren, um leistungsstärkere Motoren anzusteuern. Die entsprechende Bibliothek, die wir herunterladen müssen, haben wir schon gefunden. 
+Außerdem haben wir geplant, wie wir die Idee mit dem Teebeutelautomaten im Bau umsetzten können.
+
+
+
 
 
 
