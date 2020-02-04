@@ -32,6 +32,8 @@
 
 [Donnerstag, 30. Januar 2020](#16) 
 
+[Dienstag, 04. Februar 2020](#17)
+
 
 ### <a name="1"></a>Mittwoch, 04. Dezember 2019
 
@@ -199,9 +201,9 @@ Außerdem haben wir geplant, wie wir die Idee mit dem Teebeutelautomaten im Bau 
 
 
 
+### <a name="17"></a>Dienstag, 04. Februar 2020
 
-
-
+Heute haben wir uns noch einmal mit dem Arduino Motor-Shield beschäftigt. Dazu mussten wir zuerst die dazugehörige Arduino-Bibliothek herunterladen und in das Programm einfügen. Dies lief ohne Probleme sehr schnell ab. Dann haben wir uns ein Motor-Shield gesucht, einen Stepper-Motor angeschlossen und einen Sketch zur Probe aus dem Internet kopiert. Das Besondere an einem Stepper-Motor ist, dass man diesen sehr genau anhand der Schritte Steuern kann. Eine bestimte Anzahl Schritte ist gleichgesetzt mit 360 Grad, also einer Umdrehung. Dies ermöglicht also sehr präzises Arbeiten. Nachdem wir ein anderes Motor-Shield verwendet haben (Blau statt Grün) hat auch alles funktioniert und wir konnten den Motor sehr präzise mit einem relativ simplen Sketch steuern.
 
 
 https://funduino.de/nr-15-schrittmotor
