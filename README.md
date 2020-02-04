@@ -204,3 +204,11 @@ Außerdem haben wir geplant, wie wir die Idee mit dem Teebeutelautomaten im Bau 
 
 
 
+https://funduino.de/nr-15-schrittmotor
+
+
+
+
+
+
+
