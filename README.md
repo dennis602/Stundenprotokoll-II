@@ -34,6 +34,8 @@
 
 [Dienstag, 04. Februar 2020](#17)
 
+[Mittwoch, 05. Februar 2020](#18)
+
 
 ### <a name="1"></a>Mittwoch, 04. Dezember 2019
 
@@ -203,10 +205,26 @@ Außerdem haben wir geplant, wie wir die Idee mit dem Teebeutelautomaten im Bau 
 
 ### <a name="17"></a>Dienstag, 04. Februar 2020
 
-Heute haben wir uns noch einmal mit dem Arduino Motor-Shield beschäftigt. Dazu mussten wir zuerst die dazugehörige Arduino-Bibliothek herunterladen und in das Programm einfügen. Dies lief ohne Probleme sehr schnell ab. Dann haben wir uns ein Motor-Shield gesucht, einen Stepper-Motor angeschlossen und einen Sketch zur Probe aus dem Internet kopiert. Das Besondere an einem Stepper-Motor ist, dass man diesen sehr genau anhand der Schritte Steuern kann. 2048 Schritte sind gleichgesetzt mit 360 Grad, also einer Umdrehung. Dies ermöglicht also sehr präzises Arbeiten. Nachdem wir ein anderes Motor-Shield verwendet haben (Blau statt Grün) hat auch alles funktioniert und wir konnten den Motor sehr präzise mit einem relativ simplen Sketch steuern.
+Heute haben wir uns noch einmal mit dem Arduino Motor-Shield beschäftigt. Dazu mussten wir zuerst die dazugehörige Arduino-Bibliothek herunterladen und in das Programm einfügen. Dies lief ohne Probleme sehr schnell ab. Somit akzeptiert das Arduinoprogramm die Motorbibliothek <AFMotor.h>.
+
+![<AFMotor.h>](https://github.com/dennis602/Stundenprotokoll-II/blob/master/Code_motorshield_1.PNG?raw=true)
+
+Dann haben wir uns ein Motor-Shield gesucht, einen Stepper-Motor angeschlossen und einen Sketch zur Probe aus dem Internet kopiert. Das Besondere an einem Stepper-Motor ist, dass man diesen sehr genau anhand der Schritte Steuern kann. 2048 Schritte sind gleichgesetzt mit 360 Grad, also einer Umdrehung. Dies ermöglicht also sehr präzises Arbeiten. Nachdem wir ein anderes Motor-Shield verwendet haben (Blau statt Grün) hat auch alles funktioniert und wir konnten den Motor sehr präzise mit einem relativ simplen Sketch steuern.
 
 
 https://funduino.de/nr-15-schrittmotor
+
+
+
+### <a name="18"></a>Mittwoch, 05. Februar 2020
+
+Heute haben wir uns weiter mit dem Motorshield auseinandergesetzt. Unser Problem war, dass das Motorshield alle Ports besetzt und wir keines gefunden haben, welches die nicht vom Shield benötigten Ports nach oben durchleitet. Also entschlossen wir uns, die benötigten Ports per Kabel mit dem Motorshield zu verbinden. Nach kurzer Recherche und ausprobieren gelang es uns, die nötigen Ports zu finden.
+
+![Verkabelung_Motorshield](https://github.com/dennis602/Stundenprotokoll-II/blob/master/Motorshield_verkabelt.jpg?raw=true)
+
+Anschließend haben wir begonnen, den bisherigen Sketch des Teebeutelautomatens in den des Motorshields zu übertragen.
+
+Wir haben auch herausgefunden, dass man den Steppermotor mit dem kleinen Beiligenden Shield verwenden kann. Doch wir finden die Steuerung per Motorshield sehr schön. Nur falls uns die Kabel stören, werden wir auf das kleine Shield umsteigen.
 
 
 
