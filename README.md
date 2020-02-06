@@ -36,6 +36,8 @@
 
 [Mittwoch, 05. Februar 2020](#18)
 
+[Donnerstag, 06. Februar 2020](#19)
+
 
 ### <a name="1"></a>Mittwoch, 04. Dezember 2019
 
@@ -227,8 +229,10 @@ Anschließend haben wir begonnen, den bisherigen Sketch des Teebeutelautomatens 
 Wir haben auch herausgefunden, dass man den Steppermotor mit dem kleinen Beiligenden Shield verwenden kann. Doch wir finden die Steuerung per Motorshield sehr schön. Nur falls uns die Kabel stören, werden wir auf das kleine Shield umsteigen.
 
 
+### <a name="19"></a>Donnerstag, 06. Februar 2020
 
+Heute haben wir die Sketche in einen verbunden. Den für den normalen Motor mit Ultraschallsensor und Taster mit dem für das Motor-Shield mit dem Stepper-Motor. Wir haben den Stepper-Sketch als Grundlage genommen und den andren dort hinein gebaut, auch um uns nocheinmal mit allen Elementen vertraut zu machen. Zwangsläufig sind somit alle Motor-Elemente des alten Sketches verschwunden, da wir diesen durch den Stepper ersetzt haben. Dann haben wir die Hardware zusammen gebaut. Einfach alle Ports des Microcontrollers zugewiesen und alle mehrfach belegten (z.B. 5V) auf das Breadboard gelegt. Die Funktionalität war leider noch nicht vollständig gegeben, der Taser wurde aus uns aktuell unbekannten Gründen nicht akzepiert. Der Rest allerdings hat einwandfrei funktioniert.
 
-
+BILD EINFÜGEN
 
 
