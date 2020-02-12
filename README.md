@@ -38,6 +38,8 @@
 
 [Donnerstag, 06. Februar 2020](#19)
 
+[Mittwoch, 12. Februar 2020](#20)
+
 
 ### <a name="1"></a>Mittwoch, 04. Dezember 2019
 
@@ -231,8 +233,19 @@ Wir haben auch herausgefunden, dass man den Steppermotor mit dem kleinen Beilige
 
 ### <a name="19"></a>Donnerstag, 06. Februar 2020
 
-Heute haben wir die Sketche in einen verbunden. Den für den normalen Motor mit Ultraschallsensor und Taster mit dem für das Motor-Shield mit dem Stepper-Motor. Wir haben den Stepper-Sketch als Grundlage genommen und den andren dort hinein gebaut, auch um uns nocheinmal mit allen Elementen vertraut zu machen. Zwangsläufig sind somit alle Motor-Elemente des alten Sketches verschwunden, da wir diesen durch den Stepper ersetzt haben. Dann haben wir die Hardware zusammen gebaut. Einfach alle Ports des Microcontrollers zugewiesen und alle mehrfach belegten (z.B. 5V) auf das Breadboard gelegt. Die Funktionalität war leider noch nicht vollständig gegeben, der Taser wurde aus uns aktuell unbekannten Gründen nicht akzepiert. Der Rest allerdings hat einwandfrei funktioniert.
+Heute haben wir die Sketche in einen verbunden. Den für den normalen Motor mit Ultraschallsensor und Taster mit dem für das Motor-Shield mit dem Stepper-Motor. Wir haben den Stepper-Sketch als Grundlage genommen und den andren dort hinein gebaut, auch um uns nocheinmal mit allen Elementen vertraut zu machen. Zwangsläufig sind somit alle Motor-Elemente des alten Sketches verschwunden, da wir diesen durch den Stepper ersetzt haben. Dann haben wir die Hardware zusammen gebaut. Einfach alle Ports des Microcontrollers zugewiesen und alle mehrfach belegten (z.B. 5V) auf das Breadboard gelegt. Die Funktionalität war leider noch nicht vollständig gegeben, der Taster wurde aus uns aktuell unbekannten Gründen nicht akzepiert. Der Rest allerdings hat einwandfrei funktioniert.
 
 ![Stepperino](https://github.com/dennis602/Stundenprotokoll-II/blob/master/stepperino.jpg)
+
+
+### <a name="20"></a>Mittwoch, 12. Februar 2020
+
+Dem Problem von letzter Stunde sind wir heute auf den Grund gegangen. Wir haben verschiedene Serial Prints und nur einzelne if-Bedingungen genutzt, um die Funktionalität der einzelnen Komponenten zu prüfen. Dabei ist uns aufgefallen, dass der Sketch jeweils ein Mal funktioniert und dann nicht mehr. Nach kurzem Überlegen kamen wir darauf, dass die Variable "i" nicht im Setup, sondern im Loop gleich 0 gesetzt werden muss, damit der Ablauf jedes Mal neu beginnt. Nachdem wir das umgesetzt haben, funktionierte alles wie gewünscht. 
+
+![Code 12.02.2020](https://github.com/dennis602/Stundenprotokoll-II/blob/master/code_teebeutelautomat_1.PNG?raw=true)
+
+Außerdem nutzten wir als externe Stromquelle eine an die Steckdose angeschlossene Spannungsquelle, da der Motor bei der Batterie teilweise Anlaufschwierigkeiten hatte. Das Problem haben wir aber somit in den Griff gekriegt. 
+
+![Aufbau 12.02.2020](https://github.com/dennis602/Stundenprotokoll-II/blob/master/Motor%20mit%20Spannungsquelle%2012.02.2020.jpg)
 
 
