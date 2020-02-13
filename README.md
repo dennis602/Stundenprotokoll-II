@@ -249,3 +249,10 @@ Außerdem nutzten wir als externe Stromquelle eine an die Steckdose angeschlosse
 ![Aufbau 12.02.2020](https://github.com/dennis602/Stundenprotokoll-II/blob/master/Motor%20mit%20Spannungsquelle%2012.02.2020.jpg)
 
 
+
+
+
+
+https://i.ytimg.com/vi/jvlTKi9nMO0/maxresdefault.jpg
+
+
