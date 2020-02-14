@@ -40,6 +40,10 @@
 
 [Mittwoch, 12. Februar 2020](#20)
 
+[Donnerstag
+
+[Freitag, 14. Februar 2020](#22)
+
 
 ### <a name="1"></a>Mittwoch, 04. Dezember 2019
 
@@ -255,4 +259,10 @@ Außerdem nutzten wir als externe Stromquelle eine an die Steckdose angeschlosse
 
 https://i.ytimg.com/vi/jvlTKi9nMO0/maxresdefault.jpg
 
+### <a name="22"></a>Freitag, 14. Februar 2020
 
+Heute haben wir uns weiter um den Pieper gekümmert. Da der Aufbau von gestern nicht funktioniert hat, haben wir weitere Änderungen vorgenommen. Komischerweise hat der Port des Piepers dauerhaft Strom gegeben. Also haben wir einen anderen Port genommen. Außerdem haben wir um Sketch eine if Bedingung hinzugefügt. Nämlich if (i = Zahl der While Schleife). Somit piept der Pieper, wenn die While Schleife durch ist, also sozusagen wenn der Tee fertig ist. Das Ganze hat auch funktioniert.
+
+![Code 14.02.2020](https://github.com/dennis602/Stundenprotokoll-II/blob/master/Pieper_Code.PNG?raw=true)
+
+Jetzt sind allerdings alle Ports verbraucht. Da wir aber noch mehr Taster nutzen möchten, haben wir uns ein Arduino Mega Bord genommen und alle Kabel umgesteckt.
