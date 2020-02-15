@@ -271,3 +271,5 @@ Heute haben wir uns weiter um den Pieper gekümmert. Da der Aufbau von gestern n
 ![Code 14.02.2020](https://github.com/dennis602/Stundenprotokoll-II/blob/master/Pieper_Code.PNG?raw=true)
 
 Jetzt sind allerdings alle Ports verbraucht. Da wir aber noch mehr Taster nutzen möchten, haben wir uns ein Arduino Mega Bord genommen und alle Kabel umgesteckt.
+
+![Aufbau_14.02.2020](https://github.com/dennis602/Stundenprotokoll-II/blob/master/Arduino%20Mega%20und%20Pieper.jpg?raw=true)
