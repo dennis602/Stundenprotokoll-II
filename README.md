@@ -40,7 +40,7 @@
 
 [Mittwoch, 12. Februar 2020](#20)
 
-[Donnerstag
+[Donnerstag, 13. Februar 2020](#21)
 
 [Freitag, 14. Februar 2020](#22)
 
@@ -254,7 +254,9 @@ Außerdem nutzten wir als externe Stromquelle eine an die Steckdose angeschlosse
 
 
 
+### <a name="21"></a>Donnerstag, 13. Februar 2020
 
+Heute haben wir uns überlegt, wie wir weiter vorgehen wollen. Die Idee war es, nach den wiederholten Drehungen des Motors ein akustisches Signal zu senden. Hierzu benutzen wir einen Summer. 
 
 
 https://i.ytimg.com/vi/jvlTKi9nMO0/maxresdefault.jpg
