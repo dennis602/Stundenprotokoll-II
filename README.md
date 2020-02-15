@@ -258,6 +258,9 @@ Außerdem nutzten wir als externe Stromquelle eine an die Steckdose angeschlosse
 
 Heute haben wir uns überlegt, wie wir weiter vorgehen wollen. Die Idee war es, nach den wiederholten Drehungen des Motors ein akustisches Signal zu senden. Hierzu benutzen wir einen Summer. 
 
+![Bild Pieper](https://github.com/dennis602/Stundenprotokoll-II/blob/master/Pieper.jpg?raw=true)
+
+Wir haben einen Aufbau mit einem Transistor probiert, doch das hat noch nicht funktioniert.
 
 https://i.ytimg.com/vi/jvlTKi9nMO0/maxresdefault.jpg
 
