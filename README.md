@@ -44,6 +44,8 @@
 
 [Freitag, 14. Februar 2020](#22)
 
+[Mittwoch, 19. Februar 2020](#23)
+
 
 ### <a name="1"></a>Mittwoch, 04. Dezember 2019
 
@@ -273,3 +275,11 @@ Heute haben wir uns weiter um den Pieper gekümmert. Da der Aufbau von gestern n
 Jetzt sind allerdings alle Ports verbraucht. Da wir aber noch mehr Taster nutzen möchten, haben wir uns ein Arduino Mega Bord genommen und alle Kabel umgesteckt.
 
 ![Aufbau_14.02.2020](https://github.com/dennis602/Stundenprotokoll-II/blob/master/Arduino%20Mega%20und%20Pieper.jpg?raw=true)
+
+
+### <a name="23"></a>Mittwoch, 19. Februar 2020
+
+Wir haben jetzt einen Sketch, mit dem wir auf Knopfdruck einen bestimmten Motorablauf auslösen können. Beliebig oft drehen und dann ein Piepen. Jetzt wollen wir mehrere Taster mit verschedenen Motor-Modi einbauen. Für die Hardware haben wir einfach ein großes Breadboard genommen und drei Taster angeschlossen. Im Sketch war es ein bisschen komplizierter. Zuerst haben wir drie verschiedene Taster benannt und auf drei Digitale Pins des Microcontrollers festgelegt. Dann mussten wir den Void Loop Teil, der nach dem Einsatz des Tasters abläuf, kopieren und hintereinander an die Taster hängen. Eigentlich hätte der Sketch so auf das Drücken jedes Tasters reagieren können, leider gab es aber noch mindestens einen Fehler, weshalb wir den Sketch noch nicht hochladen konnten. Diesem Fehler werden wir uns in den nächsten Stunden widmen. 
+
+
+
