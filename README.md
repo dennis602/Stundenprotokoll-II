@@ -46,6 +46,8 @@
 
 [Mittwoch, 19. Februar 2020](#23)
 
+[Donnestag, 20. Februar 2020](#24)
+
 
 ### <a name="1"></a>Mittwoch, 04. Dezember 2019
 
@@ -280,6 +282,12 @@ Jetzt sind allerdings alle Ports verbraucht. Da wir aber noch mehr Taster nutzen
 ### <a name="23"></a>Mittwoch, 19. Februar 2020
 
 Wir haben jetzt einen Sketch, mit dem wir auf Knopfdruck einen bestimmten Motorablauf auslösen können. Beliebig oft drehen und dann ein Piepen. Jetzt wollen wir mehrere Taster mit verschedenen Motor-Modi einbauen. Für die Hardware haben wir einfach ein großes Breadboard genommen und drei Taster angeschlossen. Im Sketch war es ein bisschen komplizierter. Zuerst haben wir die verschiedene Taster benannt und auf drei Digitale Pins des Microcontrollers festgelegt. Dann mussten wir den Void Loop Teil, der nach dem Einsatz des Tasters abläuf, kopieren und hintereinander an die Taster hängen. Eigentlich hätte der Sketch so auf das Drücken jedes Tasters reagieren können, leider gab es aber noch mindestens einen Fehler, weshalb wir den Sketch noch nicht hochladen konnten. Diesem Fehler werden wir uns in den nächsten Stunden widmen. 
+
+
+### <a name="24"></a>Donnerstag, 20. Februar 2020
+
+Am Anfang der Stunde haben wir uns dem gestrigen Problem mit dem Sketch gewidmet. Nachdem wir einige Eckige Klammern anders angeordnet und die Beschreibung des Namens "GRÜN" in "GRUEN" geändert haben hat alles funktioniert. Danach haben wir noch einen vierten Taster installiert, den eine Bewegung eines Servos auslöst. Das brauchen wir am Ende des Ablaufs der Teebeutelmaschine. Wenn der Tee fertig gezogen hat, zieht der Stepper-Motor den Beutel hoch und dann fährt der Servo eine Platte mit einer Schüssel über die Tasse, in die dann der Beutel fallen kann. Soweit ist under Plan, inieweit sich dies realisieren lässt werden wir sehen.
+
 
 
 
