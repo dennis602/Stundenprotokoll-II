@@ -48,6 +48,8 @@
 
 [Donnerstag, 20. Februar 2020](#24)
 
+[Mittwoch, 26. Februar 2020](#25)
+
 
 ### <a name="1"></a>Mittwoch, 04. Dezember 2019
 
@@ -297,6 +299,15 @@ Am Anfang der Stunde haben wir uns dem gestrigen Problem mit dem Sketch gewidmet
 ![Servo](https://github.com/dennis602/Stundenprotokoll-II/blob/master/Teebeutel_SERVO.PNG?raw=true)
 
 Das brauchen wir am Ende des Ablaufs der Teebeutelmaschine. Wenn der Tee fertig gezogen hat, zieht der Stepper-Motor den Beutel hoch und dann fährt der Servo eine Platte mit einer Schüssel über die Tasse, in die dann der Beutel fallen kann. Soweit ist under Plan, inieweit sich dies realisieren lässt werden wir sehen. Für den Servo mussten wir die Servo.h Bibliothek einbinden, den Servo bennenen und den Pin angeben. Das hat alles gut funktioniert.
+
+
+
+Am Freitag ist der Informatikunterricht ausgefallen.
+
+### <a name="25"></a>Mittwoch, 26. Februar 2020
+
+Diese Woche fällt der Informatikunterricht komplett aus. Da wir ohne Zugang zum Computerraum nicht an unserem Projekt weiterarbeiten können, haben wir mit der Projektseite begonnen. Wir planen eine ähnliche Struktur wie letztes Halbjahr.
+
 
 
 
