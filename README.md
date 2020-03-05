@@ -50,6 +50,8 @@
 
 [Mittwoch, 26. Februar 2020](#25)
 
+[Donnerstag, 05. März 2020](#26)
+
 
 ### <a name="1"></a>Mittwoch, 04. Dezember 2019
 
@@ -308,6 +310,10 @@ Am Freitag ist der Informatikunterricht ausgefallen.
 
 Diese Woche fällt der Informatikunterricht komplett aus. Da wir ohne Zugang zum Computerraum nicht an unserem Projekt weiterarbeiten können, haben wir mit der Projektseite begonnen. Wir planen eine ähnliche Struktur wie letztes Halbjahr.
 
+
+### <a name="26"></a>Donnerstag, 05. März 2020
+
+Auch diese Woche ist der Unterricht Mittwoch und heute ausgefallen, also haben wir an der Projektseite weitergeschrieben. Heute haben wir auch versucht, in der Stunde in den Computerraum zu gehen, aber auch der Hausmeister konnte uns nicht den Schrank öffnen. Also können wir erst morgen wieder an dem Projekt weiterarbeiten.
 
 
 
