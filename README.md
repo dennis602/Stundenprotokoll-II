@@ -52,6 +52,8 @@
 
 [Donnerstag, 05. März 2020](#26)
 
+[Freitag, 06. März 2020](#27)
+
 
 ### <a name="1"></a>Mittwoch, 04. Dezember 2019
 
@@ -316,5 +318,15 @@ Diese Woche fällt der Informatikunterricht komplett aus. Da wir ohne Zugang zum
 Auch diese Woche ist der Unterricht Mittwoch und heute ausgefallen, also haben wir an der Projektseite weitergeschrieben. Heute haben wir auch versucht, in der Stunde in den Computerraum zu gehen, aber auch der Hausmeister konnte uns nicht den Schrank öffnen. Also können wir erst morgen wieder an dem Projekt weiterarbeiten.
 
 
+### <a name="27"></a>Freitag, 06. März 2020
 
+Heute haben wir uns mit dem neu bestellten LCD Display beschäftigt. Wir haben uns sehr gefreut, dass es sich um ein I2C-LCD Display gehandelt hat, da dieses nur 4 Anschlüsse und kein Potentiometer braucht, wie es oft bei LCDs ist. Wir haben also das LCD Display angeschlossen.
+
+https://funduino.de/nr-19-i%C2%B2c-display
+
+Außerdem mussten wir, wie beim Motorshield, eine neue Bibliothek herunterladen. Es handelt sich dabei um die <LiquidCrystal_I2C.h> Bibliothek. Das hat problemlos funktioniert. Jedoch hat das Display nur geleuchtet, aber nichts angezeigt. Wir haben herausgefunden, dass es zweizeilige und vierzeilige LCDs gibt. Diese muss man auch anders programmieren. 
+
+https://funduino.de/anleitung-4x20-i%C2%B2c-lcd-modul
+
+Das haben wir leider nicht mehr geschafft auszuprobieren. Das werden wir also nächste Woche testen.
 
