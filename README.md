@@ -324,7 +324,11 @@ Heute haben wir uns mit dem neu bestellten LCD Display beschäftigt. Wir haben u
 
 https://funduino.de/nr-19-i%C2%B2c-display
 
-Außerdem mussten wir, wie beim Motorshield, eine neue Bibliothek herunterladen. Es handelt sich dabei um die <LiquidCrystal_I2C.h> Bibliothek. Das hat problemlos funktioniert. Jedoch hat das Display nur geleuchtet, aber nichts angezeigt. Wir haben herausgefunden, dass es zweizeilige und vierzeilige LCDs gibt. Diese muss man auch anders programmieren. 
+Außerdem mussten wir, wie beim Motorshield, eine neue Bibliothek herunterladen. Es handelt sich dabei um die <LiquidCrystal_I2C.h> Bibliothek. Das hat problemlos funktioniert.
+
+![LCD Bibliothek](https://github.com/dennis602/Stundenprotokoll-II/blob/master/LCD%20Bibliothek.PNG?raw=true)
+
+Jedoch hat das Display nur geleuchtet, aber nichts angezeigt. Wir haben herausgefunden, dass es zweizeilige und vierzeilige LCDs gibt. Diese muss man auch anders programmieren. 
 
 https://funduino.de/anleitung-4x20-i%C2%B2c-lcd-modul
 
