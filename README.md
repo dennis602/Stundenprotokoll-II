@@ -54,6 +54,8 @@
 
 [Freitag, 06. März 2020](#27)
 
+[Mittwoch, 11. März 2020](#28)
+
 
 ### <a name="1"></a>Mittwoch, 04. Dezember 2019
 
@@ -334,3 +336,7 @@ https://funduino.de/anleitung-4x20-i%C2%B2c-lcd-modul
 
 Das haben wir leider nicht mehr geschafft auszuprobieren. Das werden wir also nächste Woche testen.
 
+
+### <a name="28"></a>Mittwoch, 11. März 2020
+
+Heute haben wir uns mit dem LCD Display auseinandergesetzt. WIr wollten es erstmal nur schaffen, dass irgendeine Art von Text auf dem Bildschirm erscheint. Zuerst haben wir viele Anleitungen aus dem Internet studiert und dann verschiedene Sketche ausprobiert. Leider wurde immer die Wire.h Bibliothek gebraucht, wir haben es aber nicht geschafft, diese in das Programm einzubinden. Somit haben wir es noch nicht geschafft Text auf das LCD Display zu Übertagen. Dies bleibt weiterhin unser Ziel.
