@@ -58,6 +58,8 @@
 
 [Freitag, 13. März 2020](#29)
 
+[Donnerstag, 19. März 2020](#30)
+
 
 
 ### <a name="1"></a>Mittwoch, 04. Dezember 2019
@@ -348,3 +350,22 @@ Heute haben wir uns mit dem LCD Display auseinandergesetzt. WIr wollten es erstm
 ### <a name="29"></a>Freitag, 13. März 2020
 
 Heute haben wir weiterhin versucht die Wire.h Bibliothek einzubinden um so das LCD-Display ansteuern zu können. Dennis hat hierzu seinen Laptop mitgebarcht und dort alles nötige installiert. Leider hat es noch immer nicht geklappt. Es stellt sich also die Frage, ob wir das immernoch weiterverfolgen sollten. Außerdem wustten wir schon während der Stunde, dass die nächten zwei Wochen wegen Corona ausfallen werden. Deshalb haben wir unsere gesamte Hardare und ein paar zusätzliche Kabel eingesteckt, um zuhause weiterarbeiten zu können.
+
+
+
+### <a name="30"></a>Donnerstag, 19. März 2020
+
+Heute haben wir uns noch einmal mit dem LCD-Display beschäftigt. Es gibt sehr viele Anleitungen dazu im Internet, doch keine konnte uns bisher helfen. Heute haben wir endlich ein sehr gutes Video inklusive Webside gefunden.
+
+https://www.youtube.com/watch?v=NyiWH5Mc7ek
+
+Dort wurde erklärt, dass man für die Ansteuerung eines LCD-Displays zuerst die Adresse scannen muss. Dazu gibt es einen Sketch zum Download, der im Serial Print die angeschlossenen Geräte anzeigt.
+
+![Adressenscanner](https://github.com/dennis602/Stundenprotokoll-II/blob/master/Adressenscanner_LCD.PNG?raw=true)
+
+Hier kann man also ablesen, dass unser Display die Adresse 0x3F hat. In den bisherigen Sketchen war als Adresse immer 0x27 angegeben. Somit war der erste Fehler behoben.
+
+Die Wire Bibliothek hat auf unserem privaten Laptop problemlos funktioniert. Diese ist von Arduino vorinstalliert.
+
+
+
