@@ -367,5 +367,35 @@ Hier kann man also ablesen, dass unser Display die Adresse 0x3F hat. In den bish
 
 Die Wire Bibliothek hat auf unserem privaten Laptop problemlos funktioniert. Diese ist von Arduino vorinstalliert.
 
+Anschließend haben wir die Sketche ausprobiert, die wir bisher hatten und haben dort die Adresse des LCD-Displays entsprechend geändert.
+
+![Code_LCD_Beispiel](https://github.com/dennis602/Stundenprotokoll-II/blob/master/LCD_Beispiel.PNG?raw=true)
+
+Nun war das Problem, dass das Display jeweils nur den ersten Buchstaben der zwei Zeilen des Displays angezeigt hat.
+
+![Display nur 1 Zeichen](https://github.com/dennis602/Stundenprotokoll-II/blob/master/LCD_Beispiel.JPG?raw=true)
+
+Also haben wir weiter recherchiert, bis wir auf weitere Sketche gestoßen sind. Der aus dem ersten Video schien sehr gut.
+
+https://www.aeq-web.com/i2c-display-mit-dem-arduino-uno/
+
+![LCD_kompliziert, aber funktioniert](https://github.com/dennis602/Stundenprotokoll-II/blob/master/LCD_kompliziert.PNG?raw=true)
+
+Nach dem Updaten der <LiquidCrystal_I2C.h> Bibliothek konnte auch die <LCD.h> Library eingefügt und genutzt werden. Nun hat der Sketch tatsächlich endlich funktioniert. Jedoch war uns der Sketch zu unübersichtlich und wir wollten ihn vereinfachen. 
+
+Wir haben einen ähnlichen, aber deutlich einfacheren Sketch in einem Forum gefunden.
+
+https://www.roboternetz.de/community/threads/68468-Arduino-Mega-mit-LCD-I2C
+
+![LCD Forum](https://github.com/dennis602/Stundenprotokoll-II/blob/master/LCD_Forum.PNG?raw=true)
+
+Dieser hat so noch nicht funktioniert. Also haben wir ihn mit dem funktionierenden Sketch kombiniert, indem wir die fehlende Definition des "Backlight-Pins" eingefügt haben. 
+
+![Code LCD funtioniert](https://github.com/dennis602/Stundenprotokoll-II/blob/master/code_lcd_funktioniert.PNG?raw=true)
+
+![LCD funktioniert](https://github.com/dennis602/Stundenprotokoll-II/blob/master/LCD_funktioniert.JPG?raw=true)
+
+Damit waren wir fertig.
+
 
 
