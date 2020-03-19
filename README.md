@@ -381,7 +381,7 @@ https://www.aeq-web.com/i2c-display-mit-dem-arduino-uno/
 
 ![LCD_kompliziert, aber funktioniert](https://github.com/dennis602/Stundenprotokoll-II/blob/master/LCD_kompliziert.PNG?raw=true)
 
-Nach dem Updaten der <LiquidCrystal_I2C.h> Bibliothek konnte auch die <LCD.h> Library eingefügt und genutzt werden. Mit "setCursor" kann man festlegen, in welcher der beiden Zeilen der Text abgebildet werden soll. Nun hat der Sketch tatsächlich endlich funktioniert. Jedoch war uns der Sketch zu unübersichtlich und wir wollten ihn vereinfachen. 
+Nach dem Updaten der <LiquidCrystal_I2C.h> Bibliothek und dem Download der NewLiquidCrystal Library (https://bitbucket.org/fmalpartida/new-liquidcrystal/downloads/) konnte auch die <LCD.h> Library eingefügt und genutzt werden. Mit "setCursor" kann man festlegen, in welcher der beiden Zeilen der Text abgebildet werden soll. Nun hat der Sketch tatsächlich endlich funktioniert. Jedoch war uns der Sketch zu unübersichtlich und wir wollten ihn vereinfachen. 
 
 Wir haben einen ähnlichen, aber deutlich einfacheren Sketch in einem Forum gefunden.
 
