@@ -401,9 +401,14 @@ Damit waren wir fertig.
 
 ### <a name="31"></a>Freitag, 20. März 2020
 
-Heute haben wir das LCD-Display in den Sketch für den Teebeutelautomat eingebaut. Dazu haben wir auch dort die Libraries eingefügt und im Setup die notwendigen Informationen eingefügt (siehe gestern). Im Loop haben wir folgendes programmiert: Zunächst fordert der Bildschirm auf, eine Tasse vor den Ultraschallsensor zu stellen. Anschließend wird man aufgefordert, die entsprechende Teesorte zu wählen. Nach Knopfdruck wird in der oberen Zeile des Bildschirms die Teesorte angezeigt und unten steht eine Zahl, bis zu der man warten soll. Diese Zahl entspricht der Variablen i, die in der while Schleife erreicht werden soll (s. [Mittwoch, 22. Januar 2020](#13)). Rechts davon wird durch lcd.print(i) der aktuelle Stand der Variablen angezeigt, sodass man sozusagen einen Timer hat und abschätzen kann, wie lange man warten muss. Am Ende sagt der Bilschirm, dass der Tee fertig ist. 
+Heute haben wir das LCD-Display in den Sketch für den Teebeutelautomat eingebaut. Dazu haben wir auch dort die Libraries eingefügt und im Setup die notwendigen Informationen eingefügt (siehe gestern). Im Loop haben wir folgendes programmiert: Zunächst fordert der Bildschirm auf, eine Tasse vor den Ultraschallsensor zu stellen. Anschließend wird man aufgefordert, die entsprechende Teesorte zu wählen.
+
+![LCD im Sketch](https://github.com/dennis602/Stundenprotokoll-II/blob/master/LCD%20im%20Sketch%202.PNG?raw=true)
+
+Nach Knopfdruck wird in der oberen Zeile des Bildschirms die Teesorte angezeigt und unten steht eine Zahl, bis zu der man warten soll. Diese Zahl entspricht der Variablen i, die in der while Schleife erreicht werden soll (s. [Mittwoch, 22. Januar 2020](#13)). Rechts davon wird durch lcd.print(i) der aktuelle Stand der Variablen angezeigt, sodass man sozusagen einen Timer hat und abschätzen kann, wie lange man warten muss.
 
 ![LCD im Sketch](https://github.com/dennis602/Stundenprotokoll-II/blob/master/LCD%20im%20Sketch.PNG?raw=true)
 
+Am Ende sagt der Bilschirm, dass der Tee fertig ist. 
 
 Nun müssen wir nur noch die Zeiten für die jeweiligen Tees der Realtiät anpassen. Wie das ganze aussieht, wird in einem Video auf der Projektseite zu sehen sein.
