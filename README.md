@@ -94,14 +94,14 @@ Als nächstes wollten wir den Motor steuern, indem er immer dreht, dann stoppt, 
 
 ### <a name="4"></a>Mittwoch, 11. Dezember 2019
 
-Heute haben wir uns damit auseinander gesetzt, warum die Motorsteuerung nicht so funktoniert hat, wie wir es uns gewünscht hatten. Wir kamen darauf, dass sobald der Motor an die 5V angeschlossen immer Strom bekommt, unabhängig vom Sketch. Also haben wir versucht, den Strom über das Breadboard so zu schalten, dass die 5V den digitalen Pin nur unterstützt. Wir haben allerdings sehr schnell festgestellt, dass das nicht möglich ist. Also haben wir Herrn Buhl gefragt und haben erfahren, dass man zur Motorsteuerung ein sogenanntes Motor Shield nutzen muss. Damit werden wir uns morgen auseinandersetzen.
+Heute haben wir uns damit auseinander gesetzt, warum die Motorsteuerung nicht so funktoniert hat, wie wir es uns gewünscht hatten. Wir kamen darauf, dass sobald der Motor an die 5V angeschlossen immer Strom bekommt, unabhängig vom Sketch. Also haben wir versucht, den Strom über das Breadboard so zu schalten, dass die 5V den digitalen Pin nur unterstützen. Wir haben allerdings sehr schnell festgestellt, dass das nicht möglich ist. Also haben wir Herrn Buhl gefragt und haben erfahren, dass man zur Motorsteuerung ein sogenanntes Motor Shield nutzen muss. Damit werden wir uns morgen auseinandersetzen.
 
 https://www.aeq-web.com/arduino-motor-shield-dc-motor-control/?ref=yt
 
 
 ### <a name="5"></a>Donnerstag, 12. Dezember 2019
 
-Wie geplant haben wir uns heute mit dem Motor Shield auseinandergesetzt. Zuerst haben wir dafüt im Internet recherchiert. Zum einen wi man den Sketch aufbauen muss und zum anderen wie man die Hardware aufbauen muss. Für die Hardware haben wir den Motor über Anschlüsse an das Motor Shield angeschlosse. Dieses wiederum haben wir dann auf den Mikrocontroller gesteckt, sodass die 5V und jeder Pin; den wir wollten, angesteuert werdenn konnten. Für den Sketch haben wir eine vielversprechende Vorlage kopiert und diese dann an unsere Anforderungen angepasst. Leider hat das nicht funktioniert, aus einem uns unbekannten Grund konnte der Sketch nicht auf den Mikrocontroller übertragen werden. Mit der Lösung dieses Problems wollen wir uns in den kommenden Stunden bschäftigen.
+Wie geplant haben wir uns heute mit dem Motor Shield auseinandergesetzt. Zuerst haben wir dafüt im Internet recherchiert. Zum einen wie man den Sketch aufbauen muss und zum anderen wie man die Hardware aufbauen muss. Für die Hardware haben wir den Motor über Anschlüsse an das Motor Shield angeschlosse. Dieses wiederum haben wir dann auf den Mikrocontroller gesteckt, sodass die 5V und jeder Pin; den wir wollten, angesteuert werdenn konnten. Für den Sketch haben wir eine vielversprechende Vorlage kopiert und diese dann an unsere Anforderungen angepasst. Leider hat das nicht funktioniert, aus einem uns unbekannten Grund konnte der Sketch nicht auf den Mikrocontroller übertragen werden. Mit der Lösung dieses Problems wollen wir uns in den kommenden Stunden beschäftigen.
 
 
 ### <a name="6"></a>Dienstag, 17. Dezember 2019
@@ -115,7 +115,7 @@ Heute haben wir uns weiterhin mit der Ansteuerung eines Motors mit externer Stro
 
 https://stormarnschule12.github.io/Arduino-car/
 
-Das funktionierte aber nicht, also probierten wir den Sketch mit Motorshield, doch das gleiche Problem lag vor, und zwar, dass die Arduino-Software den Sketch nicht verarbeiten konnte, da die Bibliothek <AF_Motor.h> nicht akzeptiert wurde. Also suchten wir im Internet nach weiteren Anleitungen und fanden folgende:
+Das funktionierte aber nicht, also probierten wir den Sketch mit Motorshield, doch das gleiche Problem lag vor und zwar, dass die Arduino-Software den Sketch nicht verarbeiten konnte, da die Bibliothek <AF_Motor.h> nicht akzeptiert wurde. Also suchten wir im Internet nach weiteren Anleitungen und fanden folgende:
 
 https://www.arduino.cc/en/Tutorial/TransistorMotorControl
 
@@ -129,7 +129,7 @@ Heute haben wir die Anleitung von gestern umgesetzt, also alles aufgebaut und de
 ![Sketch](https://github.com/dennis602/Stundenprotokoll-II/blob/master/code%20transistor%20kopiert.PNG?raw=true)
 
 
-Den Sketch haben wir so verstanden, dass x in irgendwie die Geschwindigkeit bestimmt, mit der der Motor dreht. Also beginnt der Motor nach drücken des Knopfes durch x++ zu beschleunigen, bis er die Geschwindigkeit 255 erreicht. Anschließend wird er durch x-- wieder langsamer, bis er zum Stillstand kommt. 
+Den Sketch haben wir so verstanden, dass x irgendwie die Geschwindigkeit bestimmt, mit der der Motor dreht. Also beginnt der Motor nach drücken des Knopfes durch x++ zu beschleunigen, bis er die Geschwindigkeit 255 erreicht. Anschließend wird er durch x-- wieder langsamer, bis er zum Stillstand kommt. 
 
 
 
@@ -163,7 +163,7 @@ Dies hat einigermaßen funktioniert. Wir waren also theoretisch in der Lage den 
 
 ### <a name="11"></a>Donnerstag, 16. Januar 2020
 
-Unser Erster Versuch um das Problem von gestern zu lösen war es, den Computer zu wechseln. Dann haben wir alles wieder neu aufgebut und angefangen auszuprobieren. Wir haben herausgefunden, dass sich der Mikrocontroller nur dann trennt, wenn man einen zu hohen Wiederstand auf dem Potentiometer einstellt. Der Servo wollte sich trotzdem nicht so richtig bewegen, wir würden es gerne nocheinmal mit einem modernen und handlichem Potentiometer probieren, dies ist aber leider momentan nicht möglih. Somit werden wir das Potentiometer ersteinmal sein lassen. Wir haben immerhin gelernt, wie man eine Variable mit der map Funktion verwendet :)
+Unser Erster Versuch um das Problem von gestern zu lösen war es, den Computer zu wechseln. Dann haben wir alles wieder neu aufgebaut und angefangen auszuprobieren. Wir haben herausgefunden, dass sich der Mikrocontroller nur dann trennt, wenn man einen zu hohen Wiederstand auf dem Potentiometer einstellt. Der Servo wollte sich trotzdem nicht so richtig bewegen, wir würden es gerne nocheinmal mit einem modernen und handlichem Potentiometer probieren, dies ist aber leider momentan nicht möglich. Somit werden wir das Potentiometer ersteinmal sein lassen. Wir haben immerhin gelernt, wie man eine Variable mit der map Funktion verwendet :)
 
 Also werden wir uns nächste Woche weiter mit dem Drehmotor beschäftigen. Unser Ziel ist es, ihn vorwärts und rückwärts laufen zu lassen, um eventuell doch am Ende noch den Teeautomaten als Endprojekt erreichen zu können.
 
@@ -249,12 +249,12 @@ Heute haben wir uns weiter mit dem Motorshield auseinandergesetzt. Unser Problem
 
 Anschließend haben wir begonnen, den bisherigen Sketch des Teebeutelautomatens in den des Motorshields zu übertragen.
 
-Wir haben auch herausgefunden, dass man den Steppermotor mit dem kleinen Beiligenden Shield verwenden kann. Doch wir finden die Steuerung per Motorshield sehr schön. Nur falls uns die Kabel stören, werden wir auf das kleine Shield umsteigen.
+Wir haben auch herausgefunden, dass man den Steppermotor mit dem kleinen beiligenden Shield verwenden kann. Doch wir finden die Steuerung per Motorshield sehr schön. Nur falls uns die Kabel stören, werden wir auf das kleine Shield umsteigen.
 
 
 ### <a name="19"></a>Donnerstag, 06. Februar 2020
 
-Heute haben wir die Sketche in einen verbunden. Den für den normalen Motor mit Ultraschallsensor und Taster mit dem für das Motor-Shield mit dem Stepper-Motor. Wir haben den Stepper-Sketch als Grundlage genommen und den andren dort hinein gebaut, auch um uns nocheinmal mit allen Elementen vertraut zu machen. Zwangsläufig sind somit alle Motor-Elemente des alten Sketches verschwunden, da wir diesen durch den Stepper ersetzt haben. Dann haben wir die Hardware zusammen gebaut. Einfach alle Ports des Microcontrollers zugewiesen und alle mehrfach belegten (z.B. 5V) auf das Breadboard gelegt. Die Funktionalität war leider noch nicht vollständig gegeben, der Taster wurde aus uns aktuell unbekannten Gründen nicht akzepiert. Der Rest allerdings hat einwandfrei funktioniert.
+Heute haben wir die Sketche in einen verbunden. Den für den normalen Motor mit Ultraschallsensor und Taster mit dem für das Motor-Shield mit dem Stepper-Motor. Wir haben den Stepper-Sketch als Grundlage genommen und den anderen dort hinein gebaut, auch um uns nocheinmal mit allen Elementen vertraut zu machen. Zwangsläufig sind somit alle Motor-Elemente des alten Sketches verschwunden, da wir diesen durch den Stepper ersetzt haben. Dann haben wir die Hardware zusammen gebaut. Einfach alle Ports des Microcontrollers zugewiesen und alle mehrfach belegten (z.B. 5V) auf das Breadboard gelegt. Die Funktionalität war leider noch nicht vollständig gegeben, der Taster wurde aus uns aktuell unbekannten Gründen nicht akzepiert. Der Rest allerdings hat einwandfrei funktioniert.
 
 ![Stepperino](https://github.com/dennis602/Stundenprotokoll-II/blob/master/stepperino.jpg)
 
@@ -309,7 +309,7 @@ Am Anfang der Stunde haben wir uns dem gestrigen Problem mit dem Sketch gewidmet
 
 ![Servo](https://github.com/dennis602/Stundenprotokoll-II/blob/master/Teebeutel_SERVO.PNG?raw=true)
 
-Das brauchen wir am Ende des Ablaufs der Teebeutelmaschine. Wenn der Tee fertig gezogen hat, zieht der Stepper-Motor den Beutel hoch und dann fährt der Servo eine Platte mit einer Schüssel über die Tasse, in die dann der Beutel fallen kann. Soweit ist under Plan, inieweit sich dies realisieren lässt werden wir sehen. Für den Servo mussten wir die Servo.h Bibliothek einbinden, den Servo bennenen und den Pin angeben. Das hat alles gut funktioniert.
+Das brauchen wir am Ende des Ablaufs der Teebeutelmaschine. Wenn der Tee fertig gezogen hat, zieht der Stepper-Motor den Beutel hoch und dann fährt der Servo eine Platte mit einer Schüssel über die Tasse, in die dann der Beutel fallen kann. Soweit ist unser Plan, inwieweit sich dies realisieren lässt werden wir sehen. Für den Servo mussten wir die Servo.h Bibliothek einbinden, den Servo bennenen und den Pin angeben. Das hat alles gut funktioniert.
 
 
 
@@ -344,12 +344,12 @@ Das haben wir leider nicht mehr geschafft auszuprobieren. Das werden wir also n�
 
 ### <a name="28"></a>Mittwoch, 11. März 2020
 
-Heute haben wir uns mit dem LCD Display auseinandergesetzt. WIr wollten es erstmal nur schaffen, dass irgendeine Art von Text auf dem Bildschirm erscheint. Zuerst haben wir viele Anleitungen aus dem Internet studiert und dann verschiedene Sketche ausprobiert. Leider wurde immer die Wire.h Bibliothek gebraucht, wir haben es aber nicht geschafft, diese in das Programm einzubinden. Somit haben wir es noch nicht geschafft Text auf das LCD Display zu Übertagen. Dies bleibt weiterhin unser Ziel.
+Heute haben wir uns mit dem LCD Display auseinandergesetzt. Wir wollten es erstmal nur schaffen, dass irgendeine Art von Text auf dem Bildschirm erscheint. Zuerst haben wir viele Anleitungen aus dem Internet studiert und dann verschiedene Sketche ausprobiert. Leider wurde immer die Wire.h Bibliothek gebraucht, wir haben es aber nicht geschafft, diese in das Programm einzubinden. Somit haben wir es noch nicht geschafft Text auf das LCD Display zu Übertagen. Dies bleibt weiterhin unser Ziel.
 
 
 ### <a name="29"></a>Freitag, 13. März 2020
 
-Heute haben wir weiterhin versucht die Wire.h Bibliothek einzubinden um so das LCD-Display ansteuern zu können. Dennis hat hierzu seinen Laptop mitgebarcht und dort alles nötige installiert. Leider hat es noch immer nicht geklappt. Es stellt sich also die Frage, ob wir das immernoch weiterverfolgen sollten. Außerdem wustten wir schon während der Stunde, dass die nächten zwei Wochen wegen Corona ausfallen werden. Deshalb haben wir unsere gesamte Hardare und ein paar zusätzliche Kabel eingesteckt, um zuhause weiterarbeiten zu können.
+Heute haben wir weiterhin versucht die Wire.h Bibliothek einzubinden um so das LCD-Display ansteuern zu können. Dennis hat hierzu seinen Laptop mitgebarcht und dort alles nötige installiert. Leider hat es noch immer nicht geklappt. Es stellt sich also die Frage, ob wir das immernoch weiterverfolgen sollten. Außerdem wussten wir schon während der Stunde, dass die nächten zwei Wochen wegen Corona ausfallen werden. Deshalb haben wir unsere gesamte Hardare und ein paar zusätzliche Kabel eingesteckt, um zuhause weiterarbeiten zu können.
 
 
 
