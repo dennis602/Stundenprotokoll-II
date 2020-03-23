@@ -155,6 +155,8 @@ Zudem möchten wir den Motor nochmal mithilfe des Transistors ganz einfach anste
 
 Heute wollten wir mit einem Potentiometer einen Servo ansteuern. Leider hatten wir nicht die nötige Hardware zur Hand, also mussten wir improvisieren. Das Ergebnis war ein sehr altes und sehr großes Potentiometer, mit dem wir es dann versucht haben. 
 
+![Bild Potentiometer](https://github.com/dennis602/Stundenprotokoll-II/blob/master/Bild%20Potentiometer.jpg?raw=true)
+
 ![Sketch Potentiometer](https://github.com/dennis602/Stundenprotokoll-II/blob/master/Unbenannt.PNG?raw=true)
 
 Die Idee dahinter ist folgende: Man führt durch "int val" eine Variable ein, auf welcher der Wert des Potentiometers gespeichert wird. Dieser kann an einem analogen Pin des Mikrocontrollers ausgelesen werden. Mithilfe der "map" Funktion kann man diesen Wert (beim Potentiometer normalerweise 0 bis 1023) in einen Gradwinkel für den Servo (also 0 bis 180) umrechnen. Somit sollte sich der Winkel des Servos an den des Potentiometers anpassen. 
