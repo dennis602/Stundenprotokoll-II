@@ -65,16 +65,16 @@
 
 ### <a name="1"></a>Mittwoch, 04. Dezember 2019
 
-Heute haben wir darüber nachgedacht, was wir als nächstes Projekt machen könnten. Wir hätten beide Lust, weiter mit Arduino zu arbeiten, da uns das letzte Projekt sehr viel Spaß gemacht hat und wir uns damit jetzt schon ein bisschen auskennen. Also haben wir nachgedacht und hatten mehrere Ideen. Am Ende der Stunde erschien uns eine autonome Teebeutel-Maschine vielversprechend. 
+Heute haben wir darüber nachgedacht, was wir als nächstes Projekt machen könnten. Wir hätten beide Lust, weiter mit Arduino zu arbeiten, da uns das letzte Projekt sehr viel Spaß gemacht hat und wir uns damit jetzt schon ein bisschen auskennen. Also haben wir überlegt und hatten mehrere Ideen. Am Ende der Stunde erschien uns eine autonome Teebeutel-Maschine vielversprechend, da man dort zum Beispiel mit Motoren arbeiten kann.
 
 
 ### <a name="2"></a>Donnerstag, 05. Dezember 2019
 
-Heute  haben wir uns mit einem weiteren Bestandteil von Arduino auseinandergestzt: Den Tastern. Nach kurzem recherchieren wollten wir den Umgang praktisch üben und haben so LEDs an- und ausgeschaltet. Zuerst haben wir uns einen simplen Sketch kopiert um eine LED durch Knopfdruck anzumachen. Nach kurzer Zeit ging sie dann wieder aus. 
+Heute  haben wir uns mit einem weiteren Bestandteil von Arduino auseinandergesetzt: Den Tastern. Nach kurzem recherchieren wollten wir den Umgang praktisch üben und haben so LEDs an- und ausgeschaltet. Zuerst haben wir uns einen simplen Sketch kopiert um eine LED durch Knopfdruck zum Leuchten zu bringen. Nach kurzer Zeit ging sie dann wieder aus. 
 
 https://funduino.de/nr-5-taster-am-arduino
 
-Dann wollten wir eine LED mit einem Knopf an- und mit einem anderen ausschalten. Hierzu haben wir underen ersten Sketch eigenständig angepasst. Das hat dann auch funktioniert.
+Dann wollten wir eine LED mit einem Knopf an- und mit einem anderen ausschalten. Hierzu haben wir unseren ersten Sketch eigenständig angepasst. Das hat dann auch funktioniert.
 
 
 ![Taster LED an und aus](https://github.com/dennis602/Stundenprotokoll-II/blob/master/LED_Taster_AN_AUS.PNG?raw=true)
@@ -95,14 +95,14 @@ Als nächstes wollten wir den Motor steuern, indem er immer dreht, dann stoppt, 
 
 ### <a name="4"></a>Mittwoch, 11. Dezember 2019
 
-Heute haben wir uns damit auseinander gesetzt, warum die Motorsteuerung nicht so funktoniert hat, wie wir es uns gewünscht hatten. Wir kamen darauf, dass sobald der Motor an die 5V angeschlossen immer Strom bekommt, unabhängig vom Sketch. Also haben wir versucht, den Strom über das Breadboard so zu schalten, dass die 5V den digitalen Pin nur unterstützen. Wir haben allerdings sehr schnell festgestellt, dass das nicht möglich ist. Also haben wir Herrn Buhl gefragt und haben erfahren, dass man zur Motorsteuerung ein sogenanntes Motor Shield nutzen muss. Damit werden wir uns morgen auseinandersetzen.
+Heute haben wir uns damit auseinander gesetzt, warum die Motorsteuerung nicht so funktoniert hat, wie wir es uns gewünscht hatten. Uns wurde sehr schnell klar, dass der Motor, sobald er an die 5V angeschlossen ist, immer Strom bekommt, unabhängig vom Sketch. Also haben wir versucht, den Strom über das Breadboard so zu schalten, dass die 5V den digitalen Pin nur unterstützen. Wir haben allerdings sehr schnell festgestellt, dass dies nicht möglich ist. Also haben wir Herrn Buhl gefragt und haben erfahren, dass man zur Motorsteuerung ein sogenanntes Motor Shield nutzen muss. Damit werden wir uns morgen auseinandersetzen.
 
 https://www.aeq-web.com/arduino-motor-shield-dc-motor-control/?ref=yt
 
 
 ### <a name="5"></a>Donnerstag, 12. Dezember 2019
 
-Wie geplant haben wir uns heute mit dem Motor Shield auseinandergesetzt. Zuerst haben wir dafüt im Internet recherchiert. Zum einen wie man den Sketch aufbauen muss und zum anderen wie man die Hardware aufbauen muss. Für die Hardware haben wir den Motor über Anschlüsse an das Motor Shield angeschlosse. Dieses wiederum haben wir dann auf den Mikrocontroller gesteckt, sodass die 5V und jeder Pin; den wir wollten, angesteuert werdenn konnten. Für den Sketch haben wir eine vielversprechende Vorlage kopiert und diese dann an unsere Anforderungen angepasst. Leider hat das nicht funktioniert, aus einem uns unbekannten Grund konnte der Sketch nicht auf den Mikrocontroller übertragen werden. Mit der Lösung dieses Problems wollen wir uns in den kommenden Stunden beschäftigen.
+Wie geplant haben wir uns heute mit dem Motor Shield auseinandergesetzt. Zuerst haben wir dafür im Internet recherchiert. Zum einen wie man den Sketch aufbauen muss und zum anderen wie man die Hardware aufbauen muss. Für die Hardware haben wir den Motor über Anschlüsse an das Motor Shield angeschlossen. Dieses wiederum haben wir dann auf den Mikrocontroller gesteckt, sodass die 5V und jeder Pin, den wir wollten, angesteuert werden konnten. Für den Sketch haben wir eine vielversprechende Vorlage kopiert und diese dann an unsere Anforderungen angepasst. Leider hat das nicht funktioniert, aus einem uns unbekannten Grund konnte der Sketch nicht auf den Mikrocontroller übertragen werden. Mit der Lösung dieses Problems wollen wir uns in den kommenden Stunden beschäftigen.
 
 
 ### <a name="6"></a>Dienstag, 17. Dezember 2019
@@ -130,7 +130,7 @@ Heute haben wir die Anleitung von gestern umgesetzt, also alles aufgebaut und de
 ![Sketch](https://github.com/dennis602/Stundenprotokoll-II/blob/master/code%20transistor%20kopiert.PNG?raw=true)
 
 
-Den Sketch haben wir so verstanden, dass x irgendwie die Geschwindigkeit bestimmt, mit der der Motor dreht. Also beginnt der Motor nach drücken des Knopfes durch x++ zu beschleunigen, bis er die Geschwindigkeit 255 erreicht. Anschließend wird er durch x-- wieder langsamer, bis er zum Stillstand kommt. 
+Den Sketch haben wir so verstanden, dass x irgendwie die Geschwindigkeit bestimmt, mit der der Motor dreht. Also beginnt der Motor nach drücken des Knopfes durch x++ zu beschleunigen, bis er die Geschwindigkeit 255 (Umdrehungen pro Minute) erreicht. Anschließend wird er durch x-- wieder langsamer, bis er zum Stillstand kommt. 
 
 
 
@@ -166,7 +166,7 @@ Dies hat einigermaßen funktioniert. Wir waren also theoretisch in der Lage den 
 
 ### <a name="11"></a>Donnerstag, 16. Januar 2020
 
-Unser Erster Versuch um das Problem von gestern zu lösen war es, den Computer zu wechseln. Dann haben wir alles wieder neu aufgebaut und angefangen auszuprobieren. Wir haben herausgefunden, dass sich der Mikrocontroller nur dann trennt, wenn man einen zu hohen Wiederstand auf dem Potentiometer einstellt. Der Servo wollte sich trotzdem nicht so richtig bewegen, wir würden es gerne nocheinmal mit einem modernen und handlichem Potentiometer probieren, dies ist aber leider momentan nicht möglich. Somit werden wir das Potentiometer ersteinmal sein lassen. Wir haben immerhin gelernt, wie man eine Variable mit der map Funktion verwendet :)
+Unser Erster Versuch um das Problem von gestern zu lösen war es, den Computer zu wechseln. Dann haben wir alles wieder neu aufgebaut und angefangen auszuprobieren. Wir haben herausgefunden, dass sich der Mikrocontroller nur dann trennt, wenn man einen zu hohen Wiederstand auf dem Potentiometer einstellt. Der Servo wollte sich trotzdem nicht so richtig bewegen, wir würden es gerne nocheinmal mit einem modernen und handlichem Potentiometer probieren, dies ist aber leider momentan nicht möglich. Somit werden wir das Potentiometer ersteinmal sein lassen. Wir haben immerhin gelernt, wie man eine Variable mit der map Funktion verwendet.
 
 Also werden wir uns nächste Woche weiter mit dem Drehmotor beschäftigen. Unser Ziel ist es, ihn vorwärts und rückwärts laufen zu lassen, um eventuell doch am Ende noch den Teeautomaten als Endprojekt erreichen zu können.
 
@@ -189,7 +189,6 @@ Das hat auch alles so funktioniert. Der Motor drehte erst vorwärts, stoppte und
 
 
 ### <a name="13"></a>Mittwoch, 22. Januar 2020
-
 
 Heute haben wir einen Weg gesucht, wie man bestimmte Abläufe einfach gezielt oft ablaufen lassen kann, um das auch beim Motor durchführen zu können. Nach kurzer Recherche sind wir auf die While-Schleife gestoßen.
 
@@ -214,7 +213,7 @@ Heute haben wir unsere drei großen Bausteine miteinander verknüpft: Motor, Tas
 
 ### <a name="15"></a>Dienstag, 28. Januar 2020
 
-Heute haben wir den letzten Sketch mit einer zweiten if-Bedingung erweitert. Dazu muss man beide if-Bedingungen in Klammern setzten und dazwischen " && " setzten. Die zweite if-Bedingung ist ein Ultrasschallsensor, der Entfernung misst (s. Stundenprotkoll letztes Halbjahr). Um diesen zu testen, verwendeten wir erst einen Serial Print, um uns dort die berechnete Entfernung anzeigen zu lassen. Das hat soweit auch funktioniert. Wir wollten bewirken, dass der Sketch nur dann abläuft, wenn der Ultraschallsensor eine geringe Entfernung misst, um später den Teebeutelautomaten nur zu starten, wenn auch wirklich eine Tasse dort steht. Der Taster hat also nur eine Wirkung, wenn eine geringe Entfernung gemessen wird. Wir haben wie letztes Jahr die Messung mit ins Void Loop etc. eingefügt und anschließend die zweite if-Bedingung geschrieben.
+Heute haben wir den letzten Sketch mit einer zweiten if-Bedingung erweitert. Dazu muss man beide if-Bedingungen in Klammern setzten und dazwischen " && " setzten. Die zweite if-Bedingung ist ein Ultrasschallsensor, der Entfernung misst (s. Projektseite letztes Halbjahr (https://github.com/dennis602/Projektseite-Arduino-Parkhaus/blob/master/README.md#6)). Um diesen zu testen, verwendeten wir erst einen Serial Print, um uns dort die berechnete Entfernung anzeigen zu lassen. Das hat soweit auch funktioniert. Wir wollten bewirken, dass der Sketch nur dann abläuft, wenn der Ultraschallsensor eine geringe Entfernung misst, um später den Teebeutelautomaten nur zu starten, wenn auch wirklich eine Tasse dort steht. Der Taster hat also nur eine Wirkung, wenn eine geringe Entfernung gemessen wird. Wir haben wie letztes Jahr die Messung mit ins Void Loop etc. eingefügt und anschließend die zweite if-Bedingung geschrieben.
 
 ![Code mit Ultraschallsensor](https://github.com/dennis602/Stundenprotokoll-II/blob/master/Code_motor_ultraschall%20(3).PNG?raw=true)
 
@@ -286,7 +285,7 @@ https://i.ytimg.com/vi/jvlTKi9nMO0/maxresdefault.jpg
 
 ### <a name="22"></a>Freitag, 14. Februar 2020
 
-Heute haben wir uns weiter um den Pieper gekümmert. Da der Aufbau von gestern nicht funktioniert hat, haben wir weitere Änderungen vorgenommen. Komischerweise hat der Port des Piepers dauerhaft Strom gegeben. Also haben wir einen anderen Port genommen. Außerdem haben wir um Sketch eine if Bedingung hinzugefügt. Nämlich if (i = Zahl der While Schleife). Somit piept der Pieper, wenn die While Schleife durch ist, also sozusagen wenn der Tee fertig ist. Das Ganze hat auch funktioniert.
+Heute haben wir uns weiter um den Pieper gekümmert. Da der Aufbau von gestern nicht funktioniert hat, haben wir weitere Änderungen vorgenommen. Komischerweise hat der Port des Piepers dauerhaft Strom gegeben. Also haben wir einen anderen Port genommen. Außerdem haben wir im Sketch eine if Bedingung hinzugefügt. Nämlich if (i = Zahl der While Schleife). Somit piept der Pieper, wenn die While Schleife durch ist, also sozusagen wenn der Tee fertig ist. Das Ganze hat auch funktioniert.
 
 ![Code 14.02.2020](https://github.com/dennis602/Stundenprotokoll-II/blob/master/Pieper_Code.PNG?raw=true)
 
@@ -312,7 +311,7 @@ Am Anfang der Stunde haben wir uns dem gestrigen Problem mit dem Sketch gewidmet
 
 ![Servo](https://github.com/dennis602/Stundenprotokoll-II/blob/master/Teebeutel_SERVO.PNG?raw=true)
 
-Das brauchen wir am Ende des Ablaufs der Teebeutelmaschine. Wenn der Tee fertig gezogen hat, zieht der Stepper-Motor den Beutel hoch und dann fährt der Servo eine Platte mit einer Schüssel über die Tasse, in die dann der Beutel fallen kann. Soweit ist unser Plan, inwieweit sich dies realisieren lässt werden wir sehen. Für den Servo mussten wir die Servo.h Bibliothek einbinden, den Servo bennenen und den Pin angeben. Das hat alles gut funktioniert.
+Das brauchen wir am Ende des Ablaufs der Teebeutelmaschine. Wenn der Tee fertig gezogen hat, zieht der Stepper-Motor den Beutel hoch und dann fährt der Servo eine Platte mit einer Schüssel über die Tasse, in die dann der Beutel fallen kann. Soweit ist unser Plan, inwieweit sich dies realisieren lässt werden wir sehen. Für den Servo mussten wir die <Servo.h> Bibliothek einbinden, den Servo bennenen und den Pin angeben. Das hat alles gut funktioniert.
 
 
 
