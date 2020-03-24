@@ -349,9 +349,13 @@ Das haben wir leider nicht mehr geschafft auszuprobieren. Das werden wir also n�
 Heute haben wir uns mit dem LCD Display auseinandergesetzt. Wir wollten es erstmal nur schaffen, dass irgendeine Art von Text auf dem Bildschirm erscheint. Zuerst haben wir viele Anleitungen aus dem Internet studiert und dann verschiedene Sketche ausprobiert. Leider wurde immer die Wire.h Bibliothek gebraucht, wir haben es aber nicht geschafft, diese in das Programm einzubinden. Somit haben wir es noch nicht geschafft Text auf das LCD Display zu Übertagen. Dies bleibt weiterhin unser Ziel.
 
 
+
+Donnerstag ist der Informatikunterricht ausgefallen.
+
+
 ### <a name="29"></a>Freitag, 13. März 2020
 
-Heute haben wir weiterhin versucht die Wire.h Bibliothek einzubinden um so das LCD-Display ansteuern zu können. Dennis hat hierzu seinen Laptop mitgebarcht und dort alles nötige installiert. Leider hat es noch immer nicht geklappt. Es stellt sich also die Frage, ob wir das immernoch weiterverfolgen sollten. Außerdem wussten wir schon während der Stunde, dass die nächten zwei Wochen wegen Corona ausfallen werden. Deshalb haben wir unsere gesamte Hardare und ein paar zusätzliche Kabel eingesteckt, um zuhause weiterarbeiten zu können.
+Heute haben wir weiterhin versucht die Wire.h Bibliothek einzubinden um so das LCD-Display ansteuern zu können. Dennis hat hierzu seinen Laptop mitgebarcht und dort alles nötige installiert. Leider hat es noch immer nicht geklappt. Es stellt sich also die Frage, ob wir das immernoch weiterverfolgen sollten. Außerdem wussten wir schon während der Stunde, dass die nächten zwei Wochen wegen Corona ausfallen werden. Deshalb haben wir unsere gesamte Hardware und ein paar zusätzliche Kabel eingesteckt, um zu Hause weiterarbeiten zu können.
 
 
 
