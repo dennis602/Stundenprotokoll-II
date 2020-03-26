@@ -62,6 +62,8 @@
 
 [Freitag, 20. März 2020](#31)
 
+[Mittwoch, 25. März 2020](#32)
+
 
 ### <a name="1"></a>Mittwoch, 04. Dezember 2019
 
@@ -417,3 +419,24 @@ Nach Knopfdruck wird in der oberen Zeile des Bildschirms die Teesorte angezeigt 
 Am Ende sagt der Bilschirm, dass der Tee fertig ist. 
 
 Nun müssen wir nur noch die Zeiten für die jeweiligen Tees der Realtiät anpassen. Wie das ganze aussieht, wird in einem Video auf der Projektseite zu sehen sein.
+
+
+
+
+# Die folgenden Einträge sind nach Abgabe des Protokolls (24. März) entstanden.
+
+### <a name="32"></a>Mittwoch, 25. März 2020
+
+Heute haben wir noch eine Sache am Sketch verändert, die uns bisher gestört hatte. Wenn der Tee fertig war gab es bisher ein akustisches Signal und der Bildschirm zeigte an, dass der Tee fertig ist - jedoch nur für die festgelegte Zeit von 10 Sekunden. Wir wollten aber, dass auf dem Bildschirm "Tee fertig!" solange erscheint, bis der Benutzer den Tee genommen hat. Dazu haben wir den vierten Taster (der ursprünglich für die Bewegung des Servos war; dieser bewegt sich jetzt aber automatisch wenn eine Tasse hingestellt oder weggenommen wird) integriert. Wir wollten eine Variable einführen, die durch den Tasterdruck auf 1 erhöht wird. An der entsprechenden Stelle im Sketch schreiben wir also, dass der Bilschirm solange "Tee fertig!" anzeigen soll, wie diese Variable unter 1 ist. Zusätzlich steht auf dem Bildschirm "Druecke <fertig>", damit der Nutzer weiß, welchen Knopf er zum Beenden des Vorgangs drücken soll. Grundlage dazu war der folgende Link (Beitrag aus Forum), doch wir mussten einiges Verändern und für uns Anpassen, wie auf dem Screenshots zu sehen ist.
+  
+  https://www.arduinoforum.de/arduino-Thread-bei-Tastendruck-Variable-immer-1
+  
+  Vor dem Void Setup werden Taster und benötigte Variablen eingeführt.
+  
+  ![Endknopf Einführung](https://github.com/dennis602/Stundenprotokoll-II/blob/master/Endknopf%20einf%C3%BChrung.PNG?raw=true)
+  "val" ist dabei eine Variable, in der man einen Wert speichern kann. Sie kann somit die Anzahl der gedrückten Male des Tasters       speichern. Im Setup wird dann buttonState definiert, indem es = digitalWrite(switchPin) gesetzt wird. Im Loop wird zuerst die Variable "buttonPresses" = 0 gesetzt, damit die Variable jeden Ablauf erneut gleich Null ist.
+  Nach dem Motorablauf und dem Piepton haben wir nun eine while Schleife genutzt, um den Bilschirm solange den gewünschten Text anzeigen zu lassen, wie die Variable "buttonPresses" unter 1 ist. Außerdem wird festgelegt, dass durch Knopfdruck die Variable um 1 erhöht wird.
+  
+  ![Endknopf Loop](https://github.com/dennis602/Stundenprotokoll-II/blob/master/Endknopf%20Loop.PNG?raw=true)
+  
+  
