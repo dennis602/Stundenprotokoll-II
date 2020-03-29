@@ -64,6 +64,7 @@
 
 [Mittwoch, 25. März 2020](#32)
 
+[Samstag, 28. März 2020](#33)
 
 ### <a name="1"></a>Mittwoch, 04. Dezember 2019
 
@@ -440,3 +441,14 @@ Heute haben wir noch eine Sache am Sketch verändert, die uns bisher gestört ha
   ![Endknopf Loop](https://github.com/dennis602/Stundenprotokoll-II/blob/master/Endknopf%20Loop.PNG?raw=true)
   
   
+### <a name="33"></a>Samstag, 28. März 2020
+
+Heute haben wir den Teebeutelautomat aus LEGO gebaut.
+
+![Teebeutelautomat gebaut](https://github.com/dennis602/Stundenprotokoll-II/blob/master/Teeautomat%20(1).JPG?raw=true)
+
+Anschließend haben wir am Sketch noch ein paar Feinheiten verändert, wie zum Beispiel, dass der Teebeutel während des "ziehens" nur halb aus der Tasse gezogen und wieder herabgelassen und nicht immer ganz herausgezogen wird. Anschließend haben wir das Video gedreht und auf YouTube hochgeladen.
+
+ https://www.youtube.com/watch?v=UV_n-1Byzow
+ 
+ In den nächsten Tagen werden wir die Projektseite fertig schreiben. Dann ist das Projekt fertig.
