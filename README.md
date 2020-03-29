@@ -445,7 +445,7 @@ Heute haben wir noch eine Sache am Sketch verändert, die uns bisher gestört ha
 
 Heute haben wir den Teebeutelautomat aus LEGO gebaut.
 
-![Teebeutelautomat gebaut](https://github.com/dennis602/Stundenprotokoll-II/blob/master/Teeautomat%20(1).JPG?raw=true)
+![Teebeutelautomat gebaut](https://github.com/dennis602/Stundenprotokoll-II/blob/master/Teeautomat%20(2).JPG?raw=true)
 
 Anschließend haben wir am Sketch noch ein paar Feinheiten verändert, wie zum Beispiel, dass der Teebeutel während des "ziehens" nur halb aus der Tasse gezogen und wieder herabgelassen und nicht immer ganz herausgezogen wird. Anschließend haben wir das Video gedreht und auf YouTube hochgeladen.
 
